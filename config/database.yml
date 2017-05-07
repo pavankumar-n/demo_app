@@ -23,10 +23,10 @@
 #   database: db/production.sqlite3
 
 development:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
-  encoding: unicode
-  database: pavan
+  encoding: utf8
+  database: rubyguy_db
   pool: 5
-  username: pavan
-  password:
+  username: rubyguy
+  password: Pass_word@123
